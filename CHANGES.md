@@ -1,3 +1,7 @@
+v0.11.1
+-------
+* Added `iteration` and alias type `rownum`. This is used to indicate the number of the record that is being generated.
+
 v0.11.0
 -------
 * Addition of <date.type>.now e.g.

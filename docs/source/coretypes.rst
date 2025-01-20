@@ -25,6 +25,8 @@ For generating numeric values in different ways.
 
 .. include:: types/distribution.rst
 
+.. include:: types/iteration.rst
+
 Date & Time
 ===========
 

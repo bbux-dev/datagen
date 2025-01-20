@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/bbux-dev/datacraft/schemas/iteration.schema.json",
+  "type": "object",
+  "required": ["type"],
+  "properties": {
+    "type": {"type": "string", "pattern": "^(iteration|rownum)$"},
+    "config": {
+      "type": "object",
+      "properties": {
+        "offset": {"type": "integer"},
+        "prefix": {"$ref": "#/definitions/prefix"},
+        "suffix": {"$ref": "#/definitions/suffix"},
+        "quote": {"$ref": "#/definitions/quote"},
+        "count": {"$ref": "#/definitions/count"}
+      },
+      "additionalProperties": false
+    },
+    "additionalProperties": false
+  }
+}

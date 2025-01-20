@@ -5,11 +5,11 @@ sys.path.insert(0, os.path.abspath('../../datacraft/'))
 # -- Project information
 
 project = 'Datacraft'
-copyright = '2023, Brian Buxton'
+copyright = '2025, Brian Buxton'
 author = 'Brian Buxton'
 
 release = '0.11'
-version = '0.11.0'
+version = '0.11.1'
 
 # -- General configuration
 
